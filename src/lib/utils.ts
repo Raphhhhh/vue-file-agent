@@ -270,9 +270,9 @@ class Utils {
     canvas.width = width;
     canvas.height = height;
 
-    if (orientation !== undefined) {
+    /* if (orientation !== undefined) {
       this.rotateCanvas(orientation, canvas, context, width, height);
-    }
+    } */
 
     context.drawImage(image, 0, 0, width, height);
     let avgColor = null;
